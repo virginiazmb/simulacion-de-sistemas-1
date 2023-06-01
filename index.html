@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio del Ebrio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+    <div>
+        <div class="cont-title">
+        <h1>El problema del Ebrio</h1>
+        </div>
+        <br>
+
+        <div class="board"></div>
+        <div class="ebriocont">
+        <div class="ebrio" id="ebrio"></div>
+        </div>
+        <div class="centroCont">
+        <div class="centro" id="centro"></div>
+        </div>
+        
+        <br>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+            <th scope="col">Número de cuadras recorridas</th>
+            <th scope="col">Número aleatorio (probabilidad de dirección)</th>
+            <th scope="col">Número de calles en la que quedó</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+
+    <button id="calcular" class="btn" type="button"> Calcular</button>
+    <button id="reiniciar" class="btn-btn" type="button">Reiniciar</button>
+
+    <p> <i>Si al finalizar el recorrido de las 10 cuadras, el resultado de sumar X y Y resulta ser igual a 2, entonces el borracho terminó a una distancia igual a 2 dos calles de donde empezó su caminata.</i></p>
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
